@@ -1,12 +1,12 @@
 {
-	"version"               : "1.0.0",
+	"version"               : "1.0.1",
     "name"                  : "finalTheme",
     "description"           : "Theme for the Ceres template",
 	"author"                : "farbfinal",
     "email"             	: "info@farbfinal.de",
     "keywords"              : ["theme", "finalTheme", "plentymarkets", "plugins", "layout"],
     "type"                  : "theme",
-    "require"               : ["Ceres", "IO"],
+    "require"               : [],
 	"namespace"             : "finalTheme",
     "serviceProvider"       : "finalTheme\\Providers\\finalThemeServiceProvider",
     "dataProviders"         :
