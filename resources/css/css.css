@@ -3,14 +3,41 @@
 	width: 100%;
 }
 
-.balken-innen {
-	color: #fff;
-	height: 34px;
-	line-height: 34px;
-	margin: 0 auto;
-	position: relative;
-	text-transform: uppercase;
-	width: 1160px;
+	.balken-innen {
+		color: #fff;
+		height: 34px;
+		line-height: 34px;
+		margin: 0 auto;
+		position: relative;
+		text-transform: uppercase;
+		width: 1160px;
+	}
+
+.header {
+    height: 105px;
+    margin: 0 auto;
+    position: relative;
+    width: 1160px;
+}
+
+.hauptmenue {
+    border-bottom: 1px solid #87a746;
+    border-top: 1px solid #87a746;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 30px 0;
+    padding: 0 60px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.hauptmenue li {
+    display: inline-block;
+}
+
+.hauptmenue li a {
+    color: #87a746;
 }
 
 .footer {

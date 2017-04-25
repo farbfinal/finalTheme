@@ -1,0 +1,4 @@
+{% macro get_nav_bar(categories, currentScopeUrl) %}
+    {{ component("finalTheme::content.CategoryNavBarHeader") }}
+    <category-renderer template="#vue-category-nav-bar-header" categories="{{ categories | json_encode() }}"></category-renderer>
+{% endmacro %}

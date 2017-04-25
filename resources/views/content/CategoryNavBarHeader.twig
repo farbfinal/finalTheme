@@ -1,0 +1,5 @@
+<script type="x/template" id="vue-category-nav-bar-header">
+    <li v-for="category in categories">
+        <a @click="renderItems(category)">${ category.details[0].name }</a>
+    </li>
+</script>
