@@ -1,0 +1,10 @@
+{% import "Ceres::Category.Macros.CategoryTree" as Tree %}
+{% set lang = services.sessionStorage.getLang() %}
+<nav class="hauptmenue">
+	{% if not services.template.isCategory() %}
+    <ul>
+        {% set categories = services.category.getNavigationTree("item", lang) %}
+        {{ Tree.get_nav_bar(categories, "") }}
+    </ul>
+    {% endif %}
+</nav>

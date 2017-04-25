@@ -1,5 +1,5 @@
 .balken {
-	background: #1f1f1f;
+	background: #87a746;
 	width: 100%;
 }
 
@@ -11,4 +11,18 @@
 	position: relative;
 	text-transform: uppercase;
 	width: 1160px;
+}
+
+.footer {
+    background: #87a746;
+    height: 285px;
+    margin: -285px auto 0 auto;
+    width: 100%;
+}
+
+.footer-innen {
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+    width: 1160px;
 }

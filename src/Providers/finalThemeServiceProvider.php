@@ -17,6 +17,9 @@ class finalThemeServiceProvider extends ServiceProvider {
 		   $partial->set('header', 'finalTheme::content.ThemeHeader');
 		}, 0);
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial) {
+		   $partial->set('navigation', 'finalTheme::content.ThemeNavigation');
+		}, 0);
+		$eventDispatcher->listen('IO.init.templates', function(Partial $partial) {
 		   $partial->set('footer', 'finalTheme::content.ThemeFooter');
 		}, 0);
 	}
